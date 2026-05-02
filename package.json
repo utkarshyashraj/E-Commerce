@@ -1,0 +1,21 @@
+{
+  "name": "ecommerce-fakestore",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "E-Commerce web application built with React + React Router consuming FakeStore API",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/copy-spa-fallback.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
+  }
+}

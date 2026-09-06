@@ -118,8 +118,7 @@ p {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(255, 255, 255, 0.85);
-  backdrop-filter: saturate(180%) blur(12px);
+  background: #fff;
   border-bottom: 1px solid var(--border);
 }
 .navbar-inner {
@@ -135,7 +134,6 @@ p {
   gap: 8px;
   font-weight: 700;
   font-size: 1.15rem;
-  z-index: 2;
 }
 .brand-mark {
   color: var(--primary);
@@ -155,7 +153,8 @@ p {
   flex-direction: column;
   gap: 5px;
   padding: 0;
-  z-index: 2;
+  z-index: 60;
+  position: relative;
 }
 .nav-toggle span {
   display: block;
@@ -231,52 +230,66 @@ p {
   white-space: nowrap;
 }
 
+/* Mobile full-screen drawer (sibling of header — not trapped by sticky stacking) */
+.nav-drawer {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .nav-toggle {
     display: inline-flex;
   }
-  .nav-panel {
+  .nav-panel--desktop {
+    display: none;
+  }
+  .nav-drawer {
+    display: flex;
     position: fixed;
     inset: 0;
-    top: 0;
-    padding: 76px 20px 28px;
-    background: rgba(248, 250, 252, 0.98);
-    backdrop-filter: blur(12px);
+    z-index: 45;
     flex-direction: column;
     align-items: stretch;
     gap: 20px;
+    padding: 76px 20px calc(28px + env(safe-area-inset-bottom, 0px));
+    background: #f8fafc;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transition: opacity 0.2s, visibility 0.2s;
-    z-index: 1;
+    transform: translateY(-8px);
+    transition: opacity 0.2s ease, visibility 0.2s ease, transform 0.2s ease;
   }
-  .nav-panel.is-open {
+  .nav-drawer.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+    transform: translateY(0);
   }
-  .nav-links {
+  .nav-drawer .nav-links {
     margin-left: 0;
     flex-direction: column;
+    flex-wrap: nowrap;
     gap: 8px;
   }
-  .nav-links a {
+  .nav-drawer .nav-links a {
     padding: 14px 16px;
     border-radius: 12px;
     font-size: 1.05rem;
+    background: #fff;
+    border: 1px solid var(--border);
   }
-  .nav-actions {
+  .nav-drawer .nav-actions {
     flex-direction: column;
     align-items: stretch;
     gap: 12px;
     padding-top: 8px;
     border-top: 1px solid var(--border);
   }
-  .nav-actions .btn {
+  .nav-drawer .nav-actions .btn {
     width: 100%;
   }
-  .user-pill {
+  .nav-drawer .user-pill {
     max-width: none;
     text-align: center;
   }

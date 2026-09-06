@@ -29,25 +29,13 @@ async function request(path, options = {}) {
   }
 }
 
-async function loadProducts() {
-  // Prefer live API when it responds quickly; otherwise use bundled catalog.
-  // FakeStore is often Cloudflare-blocked in browsers, which can hang forever.
-  const remote = request('/products').catch(() => null);
-  const timeout = new Promise((resolve) => setTimeout(() => resolve(null), 1500));
-  const data = await Promise.race([remote, timeout]);
-  return Array.isArray(data) && data.length ? data : localProducts;
-}
-
 export const productsApi = {
-  getAll: () => loadProducts(),
+  // Bundled catalog keeps GitHub Pages reliable when FakeStore is Cloudflare-blocked.
+  getAll: async () => localProducts,
   getById: async (id) => {
-    try {
-      return await request(`/products/${id}`);
-    } catch {
-      const product = localProducts.find((item) => String(item.id) === String(id));
-      if (!product) throw new Error('Product not found');
-      return product;
-    }
+    const product = localProducts.find((item) => String(item.id) === String(id));
+    if (!product) throw new Error('Product not found');
+    return product;
   },
   create: (data) =>
     request('/products', { method: 'POST', body: JSON.stringify(data) }),

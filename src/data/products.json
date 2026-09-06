@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "title": "Essence Mascara Lash Princess",
+    "price": 9.99,
+    "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+    "category": "beauty",
+    "image": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp",
+    "rating": {
+      "rate": 2.56,
+      "count": 99
+    }
+  },
+  {
+    "id": 2,
+    "title": "Eyeshadow Palette with Mirror",
+    "price": 19.99,
+    "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+    "category": "beauty",
+    "image": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp",
+    "rating": {
+      "rate": 2.86,
+      "count": 34
+    }
+  },
+  {
+    "id": 3,
+    "title": "Powder Canister",
+    "price": 14.99,
+    "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+    "category": "beauty",
+    "image": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/thumbnail.webp",
+    "rating": {
+      "rate": 4.64,
+      "count": 89
+    }
+  },
+  {
+    "id": 4,
+    "title": "Red Lipstick",
+    "price": 12.99,
+    "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+    "category": "beauty",
+    "image": "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/thumbnail.webp",
+    "rating": {
+      "rate": 4.36,
+      "count": 91
+    }
+  },
+  {
+    "id": 5,
+    "title": "Red Nail Polish",
+    "price": 8.99,
+    "description": "The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails. With a quick-drying formula, it provides a salon-quality finish at home.",
+    "category": "beauty",
+    "image": "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/thumbnail.webp",
+    "rating": {
+      "rate": 4.32,
+      "count": 79
+    }
+  },
+  {
+    "id": 6,
+    "title": "Calvin Klein CK One",
+    "price": 49.99,
+    "description": "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.",
+    "category": "fragrances",
+    "image": "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/thumbnail.webp",
+    "rating": {
+      "rate": 4.37,
+      "count": 29
+    }
+  },
+  {
+    "id": 7,
+    "title": "Chanel Coco Noir Eau De",
+    "price": 129.99,
+    "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
+    "category": "fragrances",
+    "image": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp",
+    "rating": {
+      "rate": 4.26,
+      "count": 58
+    }
+  },
+  {
+    "id": 8,
+    "title": "Dior J'adore",
+    "price": 89.99,
+    "description": "J'adore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication.",
+    "category": "fragrances",
+    "image": "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/thumbnail.webp",
+    "rating": {
+      "rate": 3.8,
+      "count": 98
+    }
+  },
+  {
+    "id": 9,
+    "title": "Dolce Shine Eau de",
+    "price": 69.99,
+    "description": "Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent.",
+    "category": "fragrances",
+    "image": "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/thumbnail.webp",
+    "rating": {
+      "rate": 3.96,
+      "count": 4
+    }
+  },
+  {
+    "id": 10,
+    "title": "Gucci Bloom Eau de",
+    "price": 79.99,
+    "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
+    "category": "fragrances",
+    "image": "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/thumbnail.webp",
+    "rating": {
+      "rate": 2.74,
+      "count": 91
+    }
+  },
+  {
+    "id": 11,
+    "title": "Annibale Colombo Bed",
+    "price": 1899.99,
+    "description": "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
+    "category": "furniture",
+    "image": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/thumbnail.webp",
+    "rating": {
+      "rate": 4.77,
+      "count": 88
+    }
+  },
+  {
+    "id": 12,
+    "title": "Annibale Colombo Sofa",
+    "price": 2499.99,
+    "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
+    "category": "furniture",
+    "image": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/thumbnail.webp",
+    "rating": {
+      "rate": 3.92,
+      "count": 60
+    }
+  },
+  {
+    "id": 13,
+    "title": "Bedside Table African Cherry",
+    "price": 299.99,
+    "description": "The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.",
+    "category": "furniture",
+    "image": "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/thumbnail.webp",
+    "rating": {
+      "rate": 2.87,
+      "count": 64
+    }
+  },
+  {
+    "id": 14,
+    "title": "Knoll Saarinen Executive Conference Chair",
+    "price": 499.99,
+    "description": "The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.",
+    "category": "furniture",
+    "image": "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/thumbnail.webp",
+    "rating": {
+      "rate": 4.88,
+      "count": 26
+    }
+  },
+  {
+    "id": 15,
+    "title": "Wooden Bathroom Sink With Mirror",
+    "price": 799.99,
+    "description": "The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.",
+    "category": "furniture",
+    "image": "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/thumbnail.webp",
+    "rating": {
+      "rate": 3.59,
+      "count": 7
+    }
+  },
+  {
+    "id": 16,
+    "title": "Apple",
+    "price": 1.99,
+    "description": "Fresh and crisp apples, perfect for snacking or incorporating into various recipes.",
+    "category": "groceries",
+    "image": "https://cdn.dummyjson.com/product-images/groceries/apple/thumbnail.webp",
+    "rating": {
+      "rate": 4.19,
+      "count": 8
+    }
+  },
+  {
+    "id": 17,
+    "title": "Beef Steak",
+    "price": 12.99,
+    "description": "High-quality beef steak, great for grilling or cooking to your preferred level of doneness.",
+    "category": "groceries",
+    "image": "https://cdn.dummyjson.com/product-images/groceries/beef-steak/thumbnail.webp",
+    "rating": {
+      "rate": 4.47,
+      "count": 86
+    }
+  },
+  {
+    "id": 18,
+    "title": "Cat Food",
+    "price": 8.99,
+    "description": "Nutritious cat food formulated to meet the dietary needs of your feline friend.",
+    "category": "groceries",
+    "image": "https://cdn.dummyjson.com/product-images/groceries/cat-food/thumbnail.webp",
+    "rating": {
+      "rate": 3.13,
+      "count": 46
+    }
+  },
+  {
+    "id": 19,
+    "title": "Chicken Meat",
+    "price": 9.99,
+    "description": "Fresh and tender chicken meat, suitable for various culinary preparations.",
+    "category": "groceries",
+    "image": "https://cdn.dummyjson.com/product-images/groceries/chicken-meat/thumbnail.webp",
+    "rating": {
+      "rate": 3.19,
+      "count": 97
+    }
+  },
+  {
+    "id": 20,
+    "title": "Cooking Oil",
+    "price": 4.99,
+    "description": "Versatile cooking oil suitable for frying, saut\u00e9ing, and various culinary applications.",
+    "category": "groceries",
+    "image": "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/thumbnail.webp",
+    "rating": {
+      "rate": 4.8,
+      "count": 10
+    }
+  }
+]

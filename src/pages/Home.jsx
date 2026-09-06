@@ -35,8 +35,8 @@ export default function Home() {
             </h1>
             <p className="lead">
               Browse our growing catalog of electronics, apparel, jewelry and more.
-              Powered by the FakeStore API — built as a showcase React + React Router
-              e-commerce app.
+              Built as a showcase React + React Router e-commerce app with live cart
+              totals and a demo login flow.
             </p>
             <div className="hero-cta">
               <Link to="/products" className="btn btn-primary btn-lg">
